@@ -1,8 +1,8 @@
 {
-  "name": "uptask-php-mvc-sass",
+  "name": "proyectozentask",
   "version": "1.0.0",
-  "description": "UpTask - Curso Desarrollo web Completo",
-  "author": "Juan De la torre @codigoconjuan",
+  "description": "ZenTask",
+  "author": "Daniel",
   "main": "index.js",
   "type": "module",
   "scripts": {
