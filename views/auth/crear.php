@@ -47,7 +47,7 @@
 
 
 
-            <input type="submit" class="boton" value="ICrear cuenta">
+            <input type="submit" class="boton" value="Crear cuenta">
         </form>
 
         <div class="acciones">
