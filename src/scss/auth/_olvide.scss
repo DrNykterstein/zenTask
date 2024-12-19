@@ -1,0 +1,30 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.olvide{
+    margin-top: 5rem;
+    .zentask{
+        background: linear-gradient(to right, v.$cuarto 3%, v.$naranja 100%);
+        color: transparent;
+        background-clip: text;
+        font-size: 7rem;
+        text-align: center;
+        @include m.tablet{
+            font-size: 10rem;
+        }
+    }
+    label{
+        color: v.$cuarto;
+    }
+
+    input[type="submit"]{
+        @include m.boton(v.$cuarto, v.$primario);
+    }
+
+    .acciones{
+        a{
+            color: v.$cuarto;
+        }
+    }
+}

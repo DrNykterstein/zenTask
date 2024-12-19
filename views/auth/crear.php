@@ -3,7 +3,7 @@
 
     <div class="contenedor-sm">
         <p class="descripcion-pagina">Crea tu cuenta en ZenTask</p>
-        <form action="/" class="formulario" method="POST">
+        <form action="/crear" class="formulario" method="POST">
             <div class="campo">
                 <label for="nombre">Nombre</label>
                 <input  
