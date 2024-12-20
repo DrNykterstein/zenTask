@@ -48,12 +48,16 @@ class LoginController{
         ]);
     }
 
-    public static function mensaje(){
-        echo "desde mensaje";
+    public static function mensaje(Router $router){
+        $router->render('auth/mensaje',[
+            'titulo'=> 'Cuenta creada exitosamente'
+        ]);
     }
 
-    public static function confirmar(){
-        echo "desde confirmar";
+    public static function confirmar(Router $router){
+        $router->render('auth/confirmar',[
+            'titulo'=> 'Cuenta creada exitosamente'
+        ]);
     }
 
 

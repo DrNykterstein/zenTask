@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.confirmar{
+    margin-top: 5rem;
+    .zentask{
+        background: linear-gradient(to right, v.$quinto 3%, v.$cuarto 100%);
+        color: transparent;
+        background-clip: text;
+        font-size: 7rem;
+        text-align: center;
+        @include m.tablet{
+            font-size: 10rem;
+        }
+    }
+    .acciones{
+        justify-content: center;
+        a{
+            color: v.$cuarto;
+        }
+    }
+}
